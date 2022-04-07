@@ -1,0 +1,31 @@
+name: flutter_machine
+description: A new Flutter application.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  tflite: any
+  image_picker: ^0.6.7+11
+  firebase_ml_vision: ^0.11.0
+  firebase_core:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/model/
