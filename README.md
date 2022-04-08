@@ -2,7 +2,7 @@
 
 
 
-This project help flutter developers to make simple machine learning App 
+This repository help flutter developers to make simple machine learning App 
 to classify anything by two options `(tflite  & firebase_ml_vision)` Package.
 
 > **Machine learning** is a branch of Artificial Intelligence, helps systems to learn from experience like human beings. They learn from data and predict the output and improve themselves.
