@@ -14,18 +14,6 @@ class _LocalMachineScreenState extends State<LocalMachineScreen> {
   final picker = ImagePicker();
   File _image;
 
-
-
-  // pickImages() async {
-  //   var image = await ImagePicker.pickImage(source: ImageSource.gallery);
-  //   if (image == null) return null;
-  //   setState(() {
-  //     loading = true;
-  //     this.image = image;
-  //   });
-  //   classifyImage(image);
-  // }
-
   Future pickImage() async {
     final pickedFile = await picker.getImage(source: ImageSource.gallery);
     setState(() {
